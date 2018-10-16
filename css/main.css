@@ -1,13 +1,27 @@
 #right-ear,
-#left-ear:hover {
+#left-ear {
+  transition: all 300ms ease;
+}
 
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(-10px);
 }
 
 #left-eye,
 #right-eye {
-
+animation: eyes 500ms linear infinite alternate;
 }
 
-.class {
+@keyframes eyes {
 
+  0%{
+
+    transform: translateX(-10px);
+  }
+
+  100%{
+    transform: translateX(10px);
+
+  }
 }
