@@ -10,17 +10,17 @@
 
 #left-eye,
 #right-eye {
-animation: eyes 500ms linear infinite alternate;
+  animation: eyes 500ms linear infinite alternate;
 }
 
 @keyframes eyes {
 
-  0%{
+  0% {
 
     transform: translateX(-10px);
   }
 
-  100%{
+  100% {
     transform: translateX(10px);
 
   }
